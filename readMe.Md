@@ -6,7 +6,7 @@
 - Blinking Animation for Image
 ## Display
 - Mobile View
-[Display on mobile devices](images/Mobile View.png)
+![Display on mobile devices](images/Mobile View.png)
 
 
 - Desktop View
