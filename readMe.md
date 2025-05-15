@@ -1,6 +1,6 @@
 # Simple Portfolio Page
 ---
-[Site Link]()
+[Site Link](https://f-lajoc.github.io/lajoc-portfolio/)
 - Built with Semantic HTML and CSS
 - Responsive on mobile and larger screen
 - Blinking Animation for Image
