@@ -7,7 +7,7 @@
 ## Display
 ---
 - Mobile View
-[Display on mobile devices]()
+[Display on mobile devices](images/mobile view.png)
 
 
 - Desktop View
