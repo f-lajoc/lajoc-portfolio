@@ -5,10 +5,9 @@
 - Responsive on mobile and larger screen
 - Blinking Animation for Image
 ## Display
----
 - Mobile View
-[Display on mobile devices](images/mobile view.png)
+[Display on mobile devices](images/Mobile View.png)
 
 
 - Desktop View
-[Display on larger devices]()
+[Display on larger devices](images/Desktop View.png)
