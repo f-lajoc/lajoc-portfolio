@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	background-color: rgb(186, 183, 183);
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 1em;
+	align-content: center;
+	box-shadow: 0 6px 4px rgb(96, 55, 55, 0.5);
+}
+.nav-list {
+	display: none;
+}
+.nav-list li {
+	margin-left: 0.5em;
+	list-style-type: none;
+}
+a,
+h2 {
+	text-decoration: none;
+	color: rgb(96, 55, 55);
+}
+.home {
+	text-align: center;
+	margin: 3em 6em 1em;
+	box-shadow: 0 6px 4px rgb(96, 55, 55, 0.5);
+}
+img {
+	width: 100px;
+	border-radius: 50px;
+	animation: LajocAnim 5s ease 0s infinite normal none;
+}
+
+section > p,
+article > p {
+	margin: 2em;
+	text-align: justify;
+}
+.recent-activity,
+#contact {
+	font-size: large;
+	text-align: left;
+	margin: 1em 2em;
+}
+aside li {
+	text-align: left;
+	margin: 1em 0;
+	list-style-type: none;
+}
+aside {
+	padding-bottom: 2em;
+}
+footer {
+	text-align: center;
+	opacity: 0.4;
+}
+
+/* Responsivesness on larger screen -Change color*/
+@media screen and (min-width: 601px) {
+	body {
+		background-color: black;
+		color: aliceblue;
+	}
+	.home,
+	header {
+		box-shadow: 0 6px 4px rgb(210, 150, 186, 0.3);
+	}
+	header {
+		justify-content: space-between;
+	}
+	.nav-list {
+		display: flex;
+		flex-direction: row;
+	}
+	a,
+	h2 {
+		color: rgb(210, 150, 186);
+	}
+}
+
+/* Infinite Blinking Animation for image */
+@keyframes LajocAnim {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
